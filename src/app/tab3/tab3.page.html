@@ -1,17 +1,39 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark" >
     <ion-title>
-      Tab 3
+     Mapa
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-slides>
+
+    <ion-slide>
+      <div class="slide">
+        <img src="https://jogaod20com.files.wordpress.com/2020/05/ferramentas-para-criar-mapas.png?w=810&h=580&crop=1"/>
+        <h2>Mapa 1</h2>
+        <ion-button fill="clear">Passe para o lado  <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="https://i.pinimg.com/originals/c9/9f/b0/c99fb0bfd780925aa76d5f7575b250ae.jpg"/>
+      <h2>Mapa 2</h2>
+      <ion-button fill="clear">Passe para o lado  <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="https://demonstre.com/jogos/wp-content/uploads/2020/07/como-criar-mapas-de-rpg.jpg"/>
+      <h2>Mapa 3</h2>
+      <ion-button fill="clear">Passe para o lado <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="http://i1188.photobucket.com/albums/z403/FelipeAbreuFaria/Soulmancer/Map%20Pro%20X.png"/>
+      <h2>Mapa 4</h2>
+    </ion-slide>
+
+  </ion-slides>
 </ion-content>
